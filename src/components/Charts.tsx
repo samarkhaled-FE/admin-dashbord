@@ -15,6 +15,7 @@ import {
 } from "chart.js";
 import { Bar, Doughnut, Pie, Line } from "react-chartjs-2";
 
+// put this call in a `useEffect` hook
 ChartJS.register(
   CategoryScale,
   LinearScale,
