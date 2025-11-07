@@ -30,6 +30,7 @@ ChartJS.register(
 
 const months = ["January", "February", "March", "April", "May", "June", "July"];
 
+// one component per file
 interface BarChart {
   horizontal?: boolean;
   data_1: number[];
