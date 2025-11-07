@@ -9,6 +9,7 @@ interface DataType {
   status: string;
 }
 
+// this would be better as a prop
 const columns: Column<DataType>[] = [
   {
     Header: "Id",
